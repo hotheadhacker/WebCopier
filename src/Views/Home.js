@@ -14,7 +14,7 @@ const Home=()=>{
 
     const renderList = data.map((item)=>{
         return(
-            <Card style={styles.myCard}>
+            <Card style={styles.myCard} key={item.id}>
             <View style={styles.cardView}>
                 <Image
                 style={{width:100, height:100, borderRadius:50}}
