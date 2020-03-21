@@ -11,7 +11,7 @@ const Home=()=>{
         {id:4, name:'Mouni Sparkles', img:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5Bou66P4OQGCqlfKZx1rXC3Fkl42MYOCBrbnupb_x1JxW5U_G'},
         {id:5, name:'Kalee Cuco', img:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR93czT5c-S3CG-fCBu0y37Nq2_t6KEBVgW-vtkv3bFCX8Hb7As'},
     ]
-
+ 
     const renderList = data.map((item)=>{
         return(
             <Card style={styles.myCard} key={item.id}>
