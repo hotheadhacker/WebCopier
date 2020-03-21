@@ -8,7 +8,7 @@ export default function App() {
   return (
     
     <View style={styles.container}>
-      <Toolbar style={styles.newStyl}
+      {/* <Toolbar style={styles.newStyl}
         leftElement="menu"
         centerElement="WebCopier - Alpha"
         searchable={{
@@ -22,9 +22,9 @@ export default function App() {
             }
         }}
         onRightElementPress={ (label) => { console.log(label) }}
-      />
-      <Text>Welcome to the webCopier APP3!</Text>
-      <Divider/>
+      /> */}
+      <Text>Welcome to the webCopier APP3.!</Text>
+      {/* <Divider/>
       <Text></Text>
       
       <Divider/>
@@ -36,7 +36,7 @@ export default function App() {
       <Subheader text="Files will be stored to .local/downloads" />
 
 
-      <ActionButton /> 
+      <ActionButton />  */}
 
       
     </View>
